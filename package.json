@@ -2,6 +2,6 @@
   "name": "hamrr-website",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'Static site — no build step'"
+    "build": "mkdir -p dist && cp -r index.html manual.html assets dist/"
   }
 }
